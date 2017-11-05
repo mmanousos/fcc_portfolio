@@ -1,0 +1,131 @@
+/* TO-DO:
+• fix nav toggle
+*/
+
+
+h1, 
+p {
+    color: #e00000;
+}
+
+nav {
+    padding: 10px 0 5px 0;
+}
+
+.navbar p {
+    font-size: 200%;
+    padding-top: 15px;
+    margin-left: 1%;
+    font-weight: 600;
+    line-height: 120%;
+    display: inline;
+}
+
+.btn, 
+button.navbar-toggle.collapsed {
+    border-color: #e00000;
+}
+
+button.navbar-toggle.collapsed:link,
+button.navbar-toggle.collapsed:visited, 
+button.navbar-toggle.collapsed:hover,  
+button.navbar-toggle.collapsed:active   {
+    border-color: #e00000;
+    background-color: #e00000;
+}
+
+.btn:last-child {
+    margin-right: 15px;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #480000;
+    color: #fff;
+}
+
+.btn a {
+    color: #E00000;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.jumbotron, 
+#portfolio {
+    background-color: #eee;
+}
+
+.jumbotron { 
+    margin-top: 25px;
+}
+
+.profile-img {
+    margin-top: 15px;
+    width: 100%;  
+    border-radius: 5%;
+}
+
+#greeting {
+    font-size: 600%;
+    width: 100%;
+    background-color: #ccc;
+    text-align: center;
+    padding: 15% 0 15% 0;
+    color: #e00000;
+}
+
+.about {
+    font-size: 150%;
+    font-weight: 600;
+    font-family: "lato", sans-serif;
+}
+
+#about-left {
+    padding-top: 5%;
+}
+
+#about-right {
+    text-align: right;
+    padding-top: 2%;
+}
+
+.banner {
+    background-color: #E00000;
+    margin-top: -35px;
+}
+
+#contact {
+    text-align: right;
+    padding-right: 3%;
+}
+
+#contact li {
+    list-style: none;
+    display: inline;
+    padding-top: 10%;
+}
+
+.social-media li img {
+    padding-top: 1%;
+    width: 12%;
+}
+
+#portfolio {
+    text-align: center;
+}
+
+#portfolio h1 {
+    padding-top: 40px;
+    font-weight: 600;
+}
+
+.work-img {
+    width: 95%;
+    padding: 10%;
+}
+
+
+
+/* 
+Color palette http://paletton.com/#uid=1000u0kw0s7arMvmWxaErjGUi84
+*/
