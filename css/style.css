@@ -1,10 +1,6 @@
-/* TO-DO:
-• fix nav toggle
-*/
-
-
 h1, 
-p {
+p,
+a {
     color: #e00000;
 }
 
@@ -12,13 +8,18 @@ nav {
     padding: 10px 0 5px 0;
 }
 
-.navbar p {
+.title {
     font-size: 200%;
-    padding-top: 15px;
-    margin-left: 1%;
+    margin-left: 2%;
     font-weight: 600;
-    line-height: 120%;
-    display: inline;
+}
+
+.title:hover,
+.title:active,
+.title:visited, 
+.title:link {
+    text-decoration: none;
+    color: #e00000;
 }
 
 .btn, 
@@ -26,11 +27,7 @@ button.navbar-toggle.collapsed {
     border-color: #e00000;
 }
 
-button.navbar-toggle.collapsed:link,
-button.navbar-toggle.collapsed:visited, 
-button.navbar-toggle.collapsed:hover,  
-button.navbar-toggle.collapsed:active   {
-    border-color: #e00000;
+#menu-button:hover {
     background-color: #e00000;
 }
 
@@ -124,6 +121,15 @@ button.navbar-toggle.collapsed:active   {
     padding: 10%;
 }
 
+.footer {
+    background-color: #e00000;
+}
+
+.footer p {
+    color: #480000;
+    text-align: center;
+    padding-top: 5px;
+}
 
 
 /* 
