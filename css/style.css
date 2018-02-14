@@ -118,7 +118,13 @@ button.navbar-toggle.collapsed {
 
 .work-img {
     width: 95%;
-    padding: 10%;
+    padding: 5% 10%;
+}
+
+.work-description {
+    margin-bottom: 5%;
+    font-size: 16px;
+    padding: 0 10%;
 }
 
 .footer {
